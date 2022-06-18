@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+
+ body{
+   margin:0px;
+ 
+    }
+
+     
+  .sidebar{
+
+  grid-area:sidebar;
+ 
+          }
+		
+  .content{
+
+   grid-area:content;
+   
+    
+          }
+  .header{
+  
+   grid-area:header; 
+		 }
+		 
+  .footer{
+  
+   grid-area:footer; 
+   
+		 }
+		 
+   
+		 
+   .free{
+   
+   grid-area:free;
+       
+	   }
+	   
+	.wrapper{
+	
+	display:grid;
+	grid-gap:0px;
+		grid-template-columns:10% 80% 10%;
+
+	grid-template-areas:
+	    "header header header"
+	    "sidebar content free"
+	    "footer footer footer";
+	background-color:white;
+	color:#000000;
+	
+	
+	      }
+		 
+	
+		  
+    .box{
+	
+	background-color:white;
+	color:#000000;
+	border-radius:0px;
+	padding:10px;
+	font-size:28px;
+	
+	    
+		}
+		
+	img:hover{
+	  
+	 
+      transform:scale(1.05);	  
+	    
+		}
+		
+    a:link{
+	      
+	background-color:#FFFFFF;
+	font-family:"microsoft tai Le";
+	
+	color:#000000;
+	padding:10px 25px;
+	text-align:center;
+	text-decoration:none;
+	display:flex;
+	opacity:0.5px;
+	border-radius:5px;
+	
+		  
+		  }
+		  
+	a:visited{
+
+   
+	color:#000000;
+	font-family:"microsoft tai Le";
+	background-color:#FFFFFF;
+	padding:10px 25px;
+	text-align:center;
+	text-decoration:underline;
+	display:flex;
+	opacity:0.5;
+	border-radius:5px;
+	
+	
+	
+	      }
+		  
+	a:hover{
+	
+	background-color:#FFFFFF;
+	color:#990033;
+	padding:10px 25px;
+	text-align:center;
+	text-decoration:underline;
+	display:flex;
+	opacity:1.0px;
+	border-radius:5px;
+	transform:scale(1.05);
+	
+	
+	      }
+		
+		
+	body{
+       background:#00008b;
+	   
+	   
+        } 
+		
+	 p1{
+		font-family:"microsoft tai Le";
+		font-size:24px;
+		font-weight:bold;
+		color:#330066;
+		
+		}
+	
+	h1{
+	
+	font-size:55px
+	color:#000000;
+	  
+	  }
+	
